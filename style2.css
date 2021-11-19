@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+
+    width: auto;
+    display: flex;
+    background-color:none;
+}
+.image {
+    float: none;
+}
+.paragraph {
+    display: block;
+    width: auto;
+}
+@media screen and (max-width:600px) {
+    body {
+        background-color:inherit;
+        color: black;
+    }
+    .container {
+        display: inline-block;
+    }
+}
